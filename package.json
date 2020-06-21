@@ -1,0 +1,35 @@
+{
+  "name": "paywallstripper",
+  "version": "1.0.0",
+  "description": "This will create a light, no-ad, no-paywall version of an article. It has some ideas from [bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome), but you can use it in node to strip the article down to a markdown file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "next",
+    "build": "next build",
+    "deploy": "now deploy --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/paywallstripper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/konsumer/paywallstripper/issues"
+  },
+  "homepage": "https://github.com/konsumer/paywallstripper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1",
+    "react-share": "^4.2.0",
+    "reactstrap": "^8.4.1",
+    "turndown": "^6.0.0"
+  },
+  "devDependencies": {
+    "now": "^19.1.1"
+  }
+}
