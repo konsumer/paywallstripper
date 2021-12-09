@@ -21,7 +21,7 @@
   "homepage": "https://github.com/konsumer/paywallstripper#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "next": "^9.4.4",
+    "next": "^11.1.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
